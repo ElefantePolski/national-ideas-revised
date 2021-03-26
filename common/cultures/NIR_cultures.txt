@@ -1,0 +1,14 @@
+iberian	= {
+	floridian = {
+		primary = FLO
+		dynasty_names = { 
+			Bush Care Washington DeSantis Trump "Bin Laden" Clinton Gator L'Gator "de Valois" Wong Marsh Everglades
+		}
+		male_names = {
+			Obama Florida Joseph Nicolas Le'Shaun Bill Steve Harvey Bobby "Sweet Tea" Jeb Joe Alli Ron L'Gator Throckmorton Badboy Gatorade Juan Carlos
+		}
+		female_names = {
+			Hillary Florida Liz Casey L'Gator Alli Margrethe Gatorade Juanita
+		}
+	}
+}

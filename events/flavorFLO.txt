@@ -1,0 +1,101 @@
+namespace = flavor_flo
+
+country_event = {
+	id = flavor_flo.1
+	title = flavor_flo.1.t
+	desc = flavor_flo.1.d
+	picture = COLONIZATION_eventPicture
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = FLO
+		any_owned_province = {
+			AND = {
+				OR = {
+					area = florida_area
+					area = north_florida_area
+					area = west_florida_area
+				}
+				development = 20
+			}
+		}
+	}
+
+	#let the search begin!
+	option = {
+		name = flavor_flo.1.a
+		add_country_modifier = { 
+    		name = flo_water
+    		duration = -1
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+}
+
+country_event = {
+	id = flavor_flo.2
+	title = flavor_flo.2.t
+	desc = flavor_flo.2.d
+	picture = SIERRA_DE_LA_PLATA_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = FLO
+		num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			value = 5
+			development = 15
+		}
+		has_country_modifier = flo_water
+		NOT = { innovativeness = 50 }
+	}
+
+	#we found it guys
+	option = {
+		name = flavor_flo.2.a
+		remove_country_modifier = flo_water
+		add_country_modifier = {
+			name = flo_sustainable
+			duration = -1
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+}
+
+country_event = {
+	id = flavor_flo.3
+	title = flavor_flo.3.t
+	desc = flavor_flo.3.d
+	picture = SIERRA_DE_LA_PLATA_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = FLO
+		num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			value = 5
+			development = 15
+		}
+		has_country_modifier = flo_water
+		innovativeness = 50
+	}
+
+	#we figured it out guys
+	option = {
+		name = flavor_flo.3.a
+		remove_country_modifier = flo_water
+		add_country_modifier = {
+			name = flo_science_man
+			duration = -1
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+}

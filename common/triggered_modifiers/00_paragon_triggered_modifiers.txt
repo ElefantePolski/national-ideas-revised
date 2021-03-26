@@ -1,0 +1,58 @@
+####################################
+# Paragon's Administrative Triggers
+####################################
+modifier_administrative_capital_1 = {
+	potential = {
+		total_development = 100
+		capital_scope = {
+				development = 40 
+				NOT = {development = 50}
+			}
+		}
+
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = have_40_dev
+			always = yes
+		}		
+	}
+
+	governing_capacity_modifier = 0.1
+}
+
+modifier_administrative_capital_2 = {
+	potential = {
+		total_development = 150
+		capital_scope = {
+			development = 50 
+			NOT = {development = 60}
+	}
+}
+
+	trigger = {
+		custom_trigger_tooltip = {
+		tooltip = have_50_dev
+		always = yes
+		}
+	}
+
+	governing_capacity_modifier = 0.15
+}
+
+modifier_administrative_capital_3 = {
+	potential = {
+		total_development = 150
+		capital_scope = {
+			development = 60 
+	}
+}
+
+	trigger = {
+		custom_trigger_tooltip = {
+		tooltip = have_60_dev
+		always = yes
+		}
+	}
+
+	governing_capacity_modifier = 0.20
+}

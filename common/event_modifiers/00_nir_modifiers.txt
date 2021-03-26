@@ -1,0 +1,12 @@
+# general modifiers for events
+
+flo_water = {
+	global_unrest = 1
+	movement_speed = 0.10
+}
+flo_sustainable = {
+	development_cost = -0.05
+}
+flo_science_man = {
+	innovativeness_gain = 0.5
+}

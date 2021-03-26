@@ -1,0 +1,19 @@
+﻿l_english:
+ modifier_administrative_capital_1:0 "Bustling Capital"
+ desc_modifier_administrative_capital_1:0 "Our large capital attracts many people who can help us govern our country."
+ modifier_administrative_capital_2:0 "Centralized Administration"
+ desc_modifier_administrative_capital_2:0 "With our capital as large as it is, both foreign and internal envoys always make it part of their journey. This helps us govern quite efficiently."
+ modifier_administrative_capital_3:0 "Metropolitan Administration"
+ desc_modifier_administrative_capital_3:0 "Our capital city is as populous as it is prestigous. Many great administrators live in our cities, and we certainly reap the benefits."
+ have_40_dev:0 "Have at least 40 development in your capital."
+ have_40_dev:0 "Have at least 40 development in your capital."
+ have_50_dev:0 "Have at least 50 development in your capital."
+ have_60_dev:0 "Have at least 60 development in your capital."
+
+ #floridian modifiers
+ flo_water:0 "The Hunt for Road Water"
+ flo_sustainable:0 "Sustainable Water"
+ flo_science_man:0 "We figured it out guys"
+
+
+ 

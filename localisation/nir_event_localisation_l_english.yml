@@ -1,0 +1,11 @@
+﻿l_english:
+ #floridian events
+ flavor_flo.1.t:0 "The Hunt for Road Water"
+ flavor_flo.1.d:0 "An illusive monster lies around every corner, taunting each man's curiousity, and upon this somber notion we gaze unto the road water. A well of life's liquid bursting from the earth, only to retreat when pursued. Thusfar, we have remained unable to drink this water, but we are certain of its mystical properties. We cannot rest until the source of this miraculous elixir is discovered and delivered to Great Florida!"
+ flavor_flo.1.a:0 "The hunt has begun!"
+ flavor_flo.2.t:0 "Road Water Found!"
+ flavor_flo.2.d:0 "Early this morning, a particularly nimble Florida Man managed to run really fast. As a consequence, he accidentally managed to outrun the road water! After finally catching up, he made sure to bottle it up and bring it home. We now have access to clean and sustainable water! On an unrelated note, it happened to be raining that day, which makes it even more impressive considering all the water on the ground--oh wait..."
+ flavor_flo.2.a:0 "The hunt concludes?"
+ flavor_flo.3.t:0 "Road Water Debunked!"
+ flavor_flo.3.d:0 "It is with grief and sadness in our hearts that we must inform the general public that, this day, our top scientists have officially declared that road water does not exist. Apparently, after a rigorous scientific experiment where two guys stood apart and saw road water at different distances, we have determined that it is not real water, but in fact sorcery that is behind it."
+ flavor_flo.3.a:0 "Well darn."

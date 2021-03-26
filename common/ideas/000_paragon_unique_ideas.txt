@@ -1,0 +1,126 @@
+SCA_ideas = {
+    start = {
+        naval_forcelimit_modifier = 0.5
+        infantry_power = 0.2
+    }
+
+    bonus = {
+        global_trade_goods_size_modifier = 0.10
+    }
+
+    trigger = {
+        tag = SCA
+    }
+    free = yes        #will be added at load.
+
+    norwegian_wood = {
+        ship_durability = 0.10
+    }
+    land_of_fjords = {
+		global_naval_engagement_modifier = 0.10
+		disengagement_chance = 0.10
+    }
+    northern_wars = {
+       discipline = 0.05
+    }
+    atheism_bad = {
+        tolerance_own = 1
+		possible_policy = 1
+    }
+    the_caroleans_prayer = {
+        shock_damage = 0.15
+        loot_amount = -0.25
+    }
+    legacy_of_tordenskjold = {
+        naval_morale = 0.20
+    }
+    expand_vinland = {
+       colonists = 1
+    }
+ }
+
+	
+	FLO_ideas = {
+    start = {
+        development_cost = -0.10
+        colonists = 1
+    }
+    
+    bonus = {
+        technology_cost = -0.10
+    }
+    
+    trigger = {
+        tag = FLO
+    }
+    free = yes        #will be added at load.
+
+    new_world_springboard = {
+        prestige = 0.5
+        global_colonial_growth = 20
+    }
+    southern_swamp = {
+        defensiveness = 0.1
+        hostile_attrition = 1
+    }
+    capital_latin_america = {
+        trade_efficiency = 0.15
+    }    
+    defenders_of_caribbean = {
+        navy_tradition = 0.5
+        heavy_ship_power = 0.1
+    }
+    citrus_straits = {
+        naval_attrition = -0.1
+        production_efficiency = 0.10
+    }
+    florida_men = {
+        land_morale = 0.2
+    }
+    gators_and_panthers = {
+        shock_damage = 0.075
+    }
+}
+
+
+COL_ideas = {
+    start = {
+        defensiveness = 0.15
+        core_creation = -0.15
+    }
+
+    bonus = {
+        global_manpower_modifier = 0.2
+    }
+
+    trigger = {
+        tag = COL
+    }
+    free = yes        #will be added at load.
+
+   first_latin_constitution = {
+        prestige = 0.5
+        idea_cost = -0.1
+    }
+    insurrection_comuneros = {
+        production_efficiency = 0.1
+    }
+    santander_leyes = {
+        global_autonomy = -0.05
+        discipline = 0.05
+    }
+    emerald_nation = {
+        inflation_reduction = 0.05
+        global_trade_goods_size_modifier = 0.1
+    }
+    two_oceans = {
+        naval_forcelimit_modifier = 0.3
+        trade_steering = 0.15
+    }
+    independence_over_all = {
+        war_exhaustion = -0.03
+    }
+    sa_crossroad = {
+        num_accepted_cultures = 1
+    }
+}
