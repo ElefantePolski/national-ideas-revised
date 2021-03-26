@@ -119,3 +119,13 @@ roman_drill:0 "Roman Drill"
 roman_drill_desc:0 "The cornerstone of Rome, its army, was renowned not for its burgeoning size but the well-trained and drilled soldiers that constituted the first professional army of Europe."
 legion_legacy:0 "Legionary Legacy"
 legion_legacy_desc:0 "No other empire can claim the long history of intuitive warfare that Rome's legions achieved each day. While the formations may be out of style, their legacies live on."
+
+#portugal
+nir_luso_tropicalism:0 "Luso-Tropicalism"
+nir_luso_tropicalism_desc:0 "Our African holdings, much more than colonies, remain to be an integral part of Portugal."
+nir_por_marines:0 "Portuguese Marines"
+nir_por_marines_desc:0 "OORAH!"
+
+#brazil
+nir_cultural_anthropophagy:0 "Cultural Anthropophagy"
+nir_cultural_anthropophagy_desc:0 "The Brazilian identity is a melting pot of innumerable cultures and ethnicities. This is also represented in our armed forces."
