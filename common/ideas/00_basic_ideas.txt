@@ -47,7 +47,7 @@ aristocracy_ideas = {
 	}
 	noble_resilience = {
 		mercenary_manpower = 0.20
-		merc_maintenance_modifier = -10
+		merc_maintenance_modifier = -0.1
 	}
 	
 
