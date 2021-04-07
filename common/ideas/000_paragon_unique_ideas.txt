@@ -25,11 +25,10 @@ SCA_ideas = {
     }
     atheism_bad = {
         tolerance_own = 1
-		possible_policy = 1
+	possible_policy = 1
     }
     the_caroleans_prayer = {
         shock_damage = 0.15
-        loot_amount = -0.25
     }
     legacy_of_tordenskjold = {
         naval_morale = 0.20
