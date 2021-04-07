@@ -4321,10 +4321,12 @@ AZT_ideas = {
 	free = yes		#wibe added at load.
 	
 	flower_wars = {
-		war_exhaustion_cost = -0.10
+		discipline = 0.05
+		army_tradition = 0.25
 	}
 	sustaining_the_gods = {
-		legitimacy = 1
+		war_exhaustion = 0.02
+		global_unrest = -1
 	}
 	telpochcalli = {
 		manpower_recovery_speed = 0.1
@@ -4336,10 +4338,11 @@ AZT_ideas = {
 		global_tax_modifier = 0.1
 	}
 	floating_gardens = {
-		production_efficiency = 0.1
+		production_efficiency = 0.15
 	}
 	pochtecayotl = {
 		spy_offence = 0.2
+		merchants = 1
 	}
 }
 
