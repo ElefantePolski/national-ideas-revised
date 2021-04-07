@@ -4325,7 +4325,7 @@ AZT_ideas = {
 		army_tradition = 0.25
 	}
 	sustaining_the_gods = {
-		war_exhaustion = 0.02
+		war_exhaustion = -0.02
 		global_unrest = -1
 	}
 	telpochcalli = {
