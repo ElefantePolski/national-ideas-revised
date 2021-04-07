@@ -261,7 +261,7 @@ RUS_ideas = {
 	}
 	free = yes		#will be added at load.
 
-	land_of_the_rus = {
+	water_from_stone = {
 		global_tax_modifier = 0.15
 	}
 	siberian_frontier = {
