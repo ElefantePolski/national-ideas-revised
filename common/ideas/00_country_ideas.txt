@@ -248,7 +248,7 @@ MOS_ideas = {
 
 RUS_ideas = {
 	start = {
-		core_creation = -0.10
+		core_creation = -0.15
 		global_manpower_modifier = 0.33
 	}
 
@@ -262,7 +262,7 @@ RUS_ideas = {
 	free = yes		#will be added at load.
 
 	land_of_the_rus = {
-		ae_impact = -0.1
+		global_tax_modifier = 0.15
 	}
 	siberian_frontier = {
 		may_establish_frontier = yes
@@ -292,7 +292,7 @@ RUS_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		artillery_fire = 1
+		artillery_fire = 0.75
 	}
 	
 	bonus = {
